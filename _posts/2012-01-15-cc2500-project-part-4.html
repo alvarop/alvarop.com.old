@@ -14,4 +14,22 @@ meta:
   blogger_permalink: /2012/01/cc2500-project-part-4.html
   dsq_thread_id: '620086914'
 ---
-I haven't been working on this project lately, but I finally got back to programming yesterday. I got the MSP430G2533 which has both hardware UART and SPI. This one will act as a bridge between the PC and the CC2500 radio. It could also be used to drive a serial LCD.<br /><br />I managed to get the UART working, but for some reason I'm having trouble with the SPI communication with the radio. I've been wanting to get a <a href="http://www.saleae.com/logic/" target="_blank">Saleae Logic</a> analyzer for a while. Now I have a reason!<br /><br />On the hardware side, I put together a breakout board for the MSP430 and CC2500. It only has a few passives and two LED's along with the MSP430 and a header for the CC2500 module I've been working with. I put them on opposite sides to save space, but that caused some problems.<br /><br /><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-5yx4zADEWr0/TxNEDqrxR6I/AAAAAAAABAE/YtWZvmspBEU/s1600/board.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="232" src="http://1.bp.blogspot.com/-5yx4zADEWr0/TxNEDqrxR6I/AAAAAAAABAE/YtWZvmspBEU/s320/board.png" width="320" /></a></div><br />I want to have the radio and antenna exposed, which means the MSP430 needs to go on the other side. Unfortunately, this means that the pins are all backwards(Top-right is pin 1.) I'll just have to keep that in mind while breadboarding.<br /><br />Hopefully I'll get the Saleae&nbsp;Logic soon so I can iron out these SPI problems. Once that's done and I have these boards, you should start to see some much nicer projects (and better code!)<br /><br /><br /><br />
+<p>
+I haven't been working on this project lately, but I finally got back to programming yesterday. I got the MSP430G2533 which has both hardware UART and SPI. This one will act as a bridge between the PC and the CC2500 radio. It could also be used to drive a serial LCD.
+</p>
+
+<p>
+I managed to get the UART working, but for some reason I'm having trouble with the SPI communication with the radio. I've been wanting to get a <a href="http://www.saleae.com/logic/" target="_blank">Saleae Logic</a> analyzer for a while. Now I have a reason!
+</p>
+
+<p>
+On the hardware side, I put together a breakout board for the MSP430 and CC2500. It only has a few passives and two LED's along with the MSP430 and a header for the CC2500 module I've been working with. I put them on opposite sides to save space, but that caused some problems.
+</p>
+
+<p>
+<a href="http://1.bp.blogspot.com/-5yx4zADEWr0/TxNEDqrxR6I/AAAAAAAABAE/YtWZvmspBEU/s1600/board.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="232" src="http://1.bp.blogspot.com/-5yx4zADEWr0/TxNEDqrxR6I/AAAAAAAABAE/YtWZvmspBEU/s320/board.png" width="320" /></a><br />I want to have the radio and antenna exposed, which means the MSP430 needs to go on the other side. Unfortunately, this means that the pins are all backwards(Top-right is pin 1.) I'll just have to keep that in mind while breadboarding.
+</p>
+
+<p>
+Hopefully I'll get the Saleae&nbsp;Logic soon so I can iron out these SPI problems. Once that's done and I have these boards, you should start to see some much nicer projects (and better code!)
+</p>
