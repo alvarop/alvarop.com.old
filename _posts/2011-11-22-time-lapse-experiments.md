@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: Time-Lapse Experiments
 categories: []
 tags: []

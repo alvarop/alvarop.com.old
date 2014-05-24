@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: Beginnings of Home(ok, apartment) Automation
 categories:
 - automation

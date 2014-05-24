@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: New Toys – Project Updates
 categories:
 - projects

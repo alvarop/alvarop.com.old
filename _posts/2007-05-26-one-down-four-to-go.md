@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: One Down, Four to Go!
 categories:
 - life

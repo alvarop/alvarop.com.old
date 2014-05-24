@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: Quick summary of the week.
 categories:
 - life

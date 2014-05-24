@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: Skype Video Message Exporter
 categories:
 - projects

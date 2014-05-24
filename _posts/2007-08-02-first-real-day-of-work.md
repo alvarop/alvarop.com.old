@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: First Real Day of Work
 categories:
 - russia

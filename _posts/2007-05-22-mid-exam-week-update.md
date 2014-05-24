@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: Mid-Exam-Week Update
 categories:
 - random

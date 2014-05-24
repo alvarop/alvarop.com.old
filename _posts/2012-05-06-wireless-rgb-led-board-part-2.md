@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: Wireless RGB LED Board (Part 2)
 categories:
 - cc2500

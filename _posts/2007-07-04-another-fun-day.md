@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: Another Fun Day
 categories:
 - russia

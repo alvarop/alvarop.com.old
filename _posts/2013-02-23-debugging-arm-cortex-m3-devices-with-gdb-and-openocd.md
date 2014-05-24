@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: Debugging ARM Cortex-M3 Devices with GDB and openOCD
 categories:
 - ARM

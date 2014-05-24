@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: Last Day of Class
 categories:
 - russia

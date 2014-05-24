@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: CC2500 Project (Part 8) - Downsizing
 categories:
 - cc2500

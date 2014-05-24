@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: PIR Sensor Comparison
 categories:
 - projects

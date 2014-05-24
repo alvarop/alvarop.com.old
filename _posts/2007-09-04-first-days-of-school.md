@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: First Days of School
 categories:
 - life

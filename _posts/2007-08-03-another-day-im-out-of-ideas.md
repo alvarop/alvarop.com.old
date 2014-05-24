@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: Another Day (I'm out of ideas)
 categories:
 - russia

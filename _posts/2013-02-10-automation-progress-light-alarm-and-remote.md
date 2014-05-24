@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: Automation Progress - Light Alarm and Remote
 categories:
 - automation

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-no-feature
 title: Kinesis Freestyle 2 Keyboard 'Mod' (to Fix Media Keys)
 categories:
 - projects
