@@ -13,7 +13,7 @@ meta:
   blogger_permalink: /2010/05/helicopter-ride.html
   dsq_thread_id: '628547938'
 ---
-<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_k2p8q4xyXYc/S-G6wNAoWLI/AAAAAAAAAG8/CVZaJsFI1Wg/s1600/IMG_0665.JPG"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 300px;" src="http://4.bp.blogspot.com/_k2p8q4xyXYc/S-G6wNAoWLI/AAAAAAAAAG8/CVZaJsFI1Wg/s400/IMG_0665.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5467856759893285042" /></a>
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="/images/blgr/IMG_0665.JPG"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 300px;" src="http://4.bp.blogspot.com/_k2p8q4xyXYc/S-G6wNAoWLI/AAAAAAAAAG8/CVZaJsFI1Wg/s400/IMG_0665.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5467856759893285042" /></a>
 
 
 So after lunch today, we heard a helicopter flying overhead. I was told that it was the USMC doing flights if you did 10+ pull-ups. I decided to head over since I had never been in a helicopter before. When I arrived, they told me that anyone can take a ride, but if you can do at least 15 pull ups, you get to skip the (very long) line.

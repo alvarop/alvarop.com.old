@@ -26,7 +26,7 @@ My first version consisted of a bash script that used <strong>find </strong>to g
 
 The next/last step consisted of writing an Objective-C app to do it all.
 
-<a href="http://alvarop.com/wp-content/uploads/2013/12/Screen-Shot-2013-12-07-at-4.28.34-PM.png"><img class="size-large wp-image-411 " title="VideoMessageExporter Screenshot" alt="VideoMessageExporter Screenshot" src="http://alvarop.com/wp-content/uploads/2013/12/Screen-Shot-2013-12-07-at-4.28.34-PM-640x249.png" width="640" height="249" /></a> VideoMessageExporter Screenshot
+<a href="/images/wp/Screen-Shot-2013-12-07-at-4.28.34-PM.png"><img class="size-large wp-image-411 " title="VideoMessageExporter Screenshot" alt="VideoMessageExporter Screenshot" src="http://alvarop.com/wp-content/uploads/2013/12/Screen-Shot-2013-12-07-at-4.28.34-PM-640x249.png" width="640" height="249" /></a> VideoMessageExporter Screenshot
 
 The application automatically finds the database file (or files, if there are multiple Skype accounts). After that, it opens each one and gets the video message info to display. The users can then select the messages they want and download them all at once to the desktop.
 

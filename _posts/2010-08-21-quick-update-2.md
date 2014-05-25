@@ -13,7 +13,7 @@ meta:
   blogger_permalink: /2010/08/quick-update.html
   dsq_thread_id: '943512051'
 ---
-<a href="http://4.bp.blogspot.com/_k2p8q4xyXYc/TG-Wynoc6cI/AAAAAAAAAJ4/W2bY4nVBAoU/s1600/IMG_2408.JPG"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 267px; height: 400px;" src="http://4.bp.blogspot.com/_k2p8q4xyXYc/TG-Wynoc6cI/AAAAAAAAAJ4/W2bY4nVBAoU/s400/IMG_2408.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5507786665673681346" /></a>
+<a href="/images/blgr/IMG_2408.JPG"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 267px; height: 400px;" src="http://4.bp.blogspot.com/_k2p8q4xyXYc/TG-Wynoc6cI/AAAAAAAAAJ4/W2bY4nVBAoU/s400/IMG_2408.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5507786665673681346" /></a>
 
 I am writing this in an internet cafe in Oslo...
 
@@ -23,4 +23,4 @@ I arrived to Oslo yesterday morning and will be taking a train to Stockholm Sund
 
 Running out of internet time... so here are two pictures to start.
 
-<a href="http://2.bp.blogspot.com/_k2p8q4xyXYc/TG-WywyNQdI/AAAAAAAAAKA/JYbcrME8Cdg/s1600/IMG_2449.JPG"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 267px;" src="http://2.bp.blogspot.com/_k2p8q4xyXYc/TG-WywyNQdI/AAAAAAAAAKA/JYbcrME8Cdg/s400/IMG_2449.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5507786668130517458" /></a>
+<a href="/images/blgr/IMG_2449.JPG"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 267px;" src="http://2.bp.blogspot.com/_k2p8q4xyXYc/TG-WywyNQdI/AAAAAAAAAKA/JYbcrME8Cdg/s400/IMG_2449.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5507786668130517458" /></a>

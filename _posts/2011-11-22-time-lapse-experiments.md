@@ -14,7 +14,7 @@ meta:
 ---
 I recently started experimenting some more with time-lapse videos while moving. I bought a suction cup mount for my DSLR and tested it out in my car.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-R3fC2Ger_JM/Tssdw5OyXrI/AAAAAAAAAt0/PmDahCUxCIg/s1600/camera_on_window.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="300" src="http://3.bp.blogspot.com/-R3fC2Ger_JM/Tssdw5OyXrI/AAAAAAAAAt0/PmDahCUxCIg/s400/camera_on_window.jpg" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Testing mount on my window!</td></tr></tbody></table>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="/images/blgr/camera_on_window.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="300" src="http://3.bp.blogspot.com/-R3fC2Ger_JM/Tssdw5OyXrI/AAAAAAAAAt0/PmDahCUxCIg/s400/camera_on_window.jpg" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Testing mount on my window!</td></tr></tbody></table>
 
 Here's a very rough test of the car setup. I just wanted to see if the mount stuck to the window and didn't fall with the rough Houston roads.
 

@@ -26,7 +26,7 @@ Once the inspect element window appears, right-click on the top HTML tag and sel
 
 Paste the HTML onto your favorite text editor. I saved it as "toc.html".
 
-<a href="http://alvarop.com/wp-content/uploads/2012/03/3_notepad.png"><img class="aligncenter size-large wp-image-147" title="Notepad" src="http://alvarop.com/wp-content/uploads/2012/03/3_notepad-527x480.png" alt="" width="527" height="480" /></a>
+<a href="/images/wp/3_notepad.png"><img class="aligncenter size-large wp-image-147" title="Notepad" src="http://alvarop.com/wp-content/uploads/2012/03/3_notepad-527x480.png" alt="" width="527" height="480" /></a>
 
 The next step is to get all the 'new' links from the WordPress site. You can export an xml file with all the information in the WordPress settings. I saved that one as "wpexport.xml".
 

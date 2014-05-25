@@ -42,4 +42,4 @@ Now you just have to reload the kext and everything should work without having t
 <strong>sudo kextunload -bundle com.apple.driver.AppleUSBFTDI</strong>
 <strong>sudo kextload -bundle com.apple.driver.AppleUSBFTDI</strong>
 
-<a href="http://alvarop.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-05-at-8.03.31-AM.png"><img class="size-large wp-image-418" alt="AppleUSBFTDI.kext Info.Plist" src="http://alvarop.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-05-at-8.03.31-AM-432x480.png" width="432" height="480" /></a> AppleUSBFTDI.kext Info.Plist
+<a href="/images/wp/Screen-Shot-2014-01-05-at-8.03.31-AM.png"><img class="size-large wp-image-418" alt="AppleUSBFTDI.kext Info.Plist" src="http://alvarop.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-05-at-8.03.31-AM-432x480.png" width="432" height="480" /></a> AppleUSBFTDI.kext Info.Plist

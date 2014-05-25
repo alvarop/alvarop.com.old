@@ -53,13 +53,13 @@ The solid background worked extremely well. The robot was no longer focusing on 
 
 Since I was still waiting for parts for the next iteration of the mechanical platform, I switched to working on test targets. The organizers were nice enough to provide a<a href="https://github.com/Defconbots/2014_target"> target reference design</a> as well. It consists of blue LEDs, red light sensors, and a microcontroller to detect the hits. I only had some of the required parts at home, so I decided to make a slightly simpler version of it.
 
-<a href="http://alvarop.com/wp-content/uploads/2014/02/targetFront.jpg"><img class="size-medium wp-image-433" alt="Target Front - Light sensor and blue LED" src="http://alvarop.com/wp-content/uploads/2014/02/targetFront-199x300.jpg" width="199" height="300" /></a>
+<a href="/images/wp/targetFront.jpg"><img class="size-medium wp-image-433" alt="Target Front - Light sensor and blue LED" src="http://alvarop.com/wp-content/uploads/2014/02/targetFront-199x300.jpg" width="199" height="300" /></a>
 
 Target Front - Light sensor and blue LED
 
 After testing the light sensor, I decided to mount it on a perf board, along with the blue LED and some resistors. I thought about using old phone cable to take the signals back to the microcontroller doing the measuring, but I found some headphone cables and used them instead. I cut a hole on a ping pong ball, mounted the board inside, hot glued a bunch, and started testing.
 
-<a href="http://alvarop.com/wp-content/uploads/2014/02/target.jpg"><img class="size-medium wp-image-431" alt="Target" src="http://alvarop.com/wp-content/uploads/2014/02/target-300x199.jpg" width="300" height="199" /></a>
+<a href="/images/wp/target.jpg"><img class="size-medium wp-image-431" alt="Target" src="http://alvarop.com/wp-content/uploads/2014/02/target-300x199.jpg" width="300" height="199" /></a>
 
 Target
 
@@ -70,6 +70,6 @@ I spent some time getting the microcontroller that’s doing the hit detection w
 
 That’s most of my progress so far. I’ve also been working on other mechanical designs, but I haven’t documented any of them yet. Working on this has been educational and quite fun! Incremental updates are usually<a href="http://www.youtube.com/playlist?list=PL51tBfXUVHK3hkl6Vbk8XUx7kcAd2GAIz"> on youtube</a> way before I write about them.
 
-<a href="http://alvarop.com/wp-content/uploads/2014/02/TargetSetup.jpg"><img class="size-medium wp-image-430" alt="Target setup for testing." src="http://alvarop.com/wp-content/uploads/2014/02/TargetSetup-300x199.jpg" width="300" height="199" /></a>
+<a href="/images/wp/TargetSetup.jpg"><img class="size-medium wp-image-430" alt="Target setup for testing." src="http://alvarop.com/wp-content/uploads/2014/02/TargetSetup-300x199.jpg" width="300" height="199" /></a>
 
 Target setup for testing.
