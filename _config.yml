@@ -14,11 +14,11 @@ owner:
   # Plug in your disqus shortname!
 
 #Comment out url when working locally to resolve base urls correctly
-#url: http://alvarop.com
+url: http://alvarop.com
 
 links:
   - title: About Me
-    url: /about-me
+    url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: America/Los_Angeles
