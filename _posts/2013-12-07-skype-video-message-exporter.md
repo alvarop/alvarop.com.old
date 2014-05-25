@@ -18,11 +18,11 @@ A few days ago, I found out that you can send video messages to people via Skype
 
 After searching around the web for a while, I realized that there is no such feature at the moment. I also saw many <a href="http://community.skype.com/t5/Windows-desktop-client/Save-a-received-Video-Message/td-p/1716649">people suggesting</a> an SQLite browser add-on for firefox.
 
-It turns out that Skype uses a sqlite database to save messages and other information. On OSX, the main database file is located under <strong>~/Library/Application Support/Skype/skype_username/main.db</strong>
+It turns out that Skype uses a sqlite database to save messages and other information. On OSX, the main database file is located under `~/Library/Application Support/Skype/skype_username/main.db`
 
 Inside the file is a table called VideoMessage, which contains the URL for all received video messages. What people were doing was finding the URL using the sqlite browser, then downloading each file individually. Another problem was that those links expire after some time, so if you haven’t viewed the video in Skype in the recent past, they won’t work. Since this method is a bit complicated for most users, I decided to automate it.
 
-My first version consisted of a bash script that used <b>find </b>to get the database file, then called <b>sqlite3 </b>to get the urls, and generated an html file with links to the videos. It worked, but it still wasn’t as easy as it could be.
+My first version consisted of a bash script that used <strong>find </strong>to get the database file, then called <strong>sqlite3 </strong>to get the urls, and generated an html file with links to the videos. It worked, but it still wasn’t as easy as it could be.
 
 The next/last step consisted of writing an Objective-C app to do it all.
 

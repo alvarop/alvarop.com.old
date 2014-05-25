@@ -25,7 +25,11 @@ Another thing I noticed was that the 2533 misread some of the radio settings. Fo
 <a href="http://alvarop.com/wp-content/uploads/2012/04/debug-2.png"><img class="size-full wp-image-203" title="Debug 2" src="http://alvarop.com/wp-content/uploads/2012/04/debug-2.png" alt="" width="600" height="500" /></a>
 
 The 2533 was starting the byte transmission half a clock-cycle too early! This also means that it is trying to sample incoming data at the wrong time (which is why some of the data reads were wrong). After digging around in datasheets and code, I found the source of the problem to be this line in the SPI configuration:
-<pre class="brush: c; gutter: false">UCB0CTL0 |= UCMST+UCCKPL+UCMSB+UCSYNC+UCCKPH;    // 3-pin, 8-bit SPI master</pre>
+
+{% highlight c %}
+UCB0CTL0 |= UCMST+UCCKPL+UCMSB+UCSYNC+UCCKPH;    // 3-pin, 8-bit SPI master
+{% endhighlight %}
+
 The problem was with the Clock phase select bit (UCCKPH). It was set to capture data on the first clock edge and change on the following edge. Clearing that bit configures it to change data on teh first clock edge and capture on the following edge.
 
 So that fixed the communication problem, but there was still a problem. The first setting written to the c2500 after reset was not being saved. Looking at the earlier capture (Blue circles in first image), the cc2500 returns a status byte of 0x87, instead of 0x07. The MSB in this case means that the radio is not ready. The problem here ended up being in the cc_powerup_reset function. Turns out the function wasn't waiting for the device to actually reset (just sending the reset command), so that first setting write happened while the radio was still restarting.

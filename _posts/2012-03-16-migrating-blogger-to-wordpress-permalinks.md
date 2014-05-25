@@ -33,15 +33,25 @@ The next step is to get all the 'new' links from the WordPress site. You can exp
 <img class="size-full wp-image-148" title="Wordpress Export" src="http://alvarop.com/wp-content/uploads/2012/03/4_export_wordpress_xml.png" alt="" width="573" height="573" />
 
 Now that there are two files with the links buried in them, we need to extract them and match them. I wrote a quick <a href="https://github.com/alvarop/alvarop-scripts/blob/master/blogger_to_wordpress_links/blogger_to_wordpress_links.pl">perl script</a> that reads both files, takes the urls, matches as many as it can, and spits out a csv file.
-<pre class="brush: bash; gutter: false">$ perl blogger_to_wordpress_links.pl &gt; links.csv</pre>
+
+{% highlight bash%}
+$ perl blogger_to_wordpress_links.pl > links.csv
+{% endhighlight %}
+
 Most of the urls were automatically matched, but a few were not, so I opened up the csv file in excel and filled out the rest. (It puts all of the unmatched urls at the bottom of the file so you only have to cut and paste, not re-type).
 
 <img class=" wp-image-152 " title="CSV List" src="http://alvarop.com/wp-content/uploads/2012/03/5_csv_link_list.png" alt="" width="608" height="378" />
 
 Ok, so now I have a csv file with URL's, but what I really need is a .htaccess file to actually do the work. I wrote <a href="https://github.com/alvarop/alvarop-scripts/blob/master/blogger_to_wordpress_links/csv_to_htacces.pl">another script</a> to do that.
-<pre class="brush: bash; gutter: false">$ perl csv_to_htacces.pl links.csv &gt; .htaccess</pre>
+
+{% highlight bash%}
+$ perl csv_to_htacces.pl links.csv > .htaccess
+{% endhighlight %}
+
 The .htaccess file should now redirect any traffic pointed at the 'old' blog and send it to the correct page on the new WordPress one. I did have to manually add a rule for my 'about me' page, but it sure was easier than manually doing 90-something posts! The .htaccess file should end up looking something like this:
-<pre class="brush: text; gutter: true">RewriteEngine  on
+
+{% highlight apache%}
+RewriteEngine  on
 RewriteRule 2007/05/first-week-of-summer-part-1-of.html http://alvarop.com/2007/05/first-week-of-summer-part-1-of [R]
 RewriteRule 2007/05/first-week-of-summer-part-2-of.html http://alvarop.com/2007/06/first-week-of-summer-part-2-of [R]
 RewriteRule 2007/05/mid-exam-week-update.html http://alvarop.com/2007/05/mid-exam-week-update [R]
@@ -50,5 +60,7 @@ RewriteRule 2007/05/one-down-four-to-go.html http://alvarop.com/2007/05/one-down
 RewriteRule 2007/05/slow-weekend.html http://alvarop.com/2007/05/slow-weekend [R]
 RewriteRule 2007/06/5-days-left.html http://alvarop.com/2007/06/5-days-left [R]
 RewriteRule 2007/06/boring-friday-and-rest-of-week-update.html http://alvarop.com/2007/06/boring-friday-and-rest-of-week-update [R]
-RewriteRule 2007/06/early-morning-update.html http://alvarop.com/2007/06/early-morning-update [R]</pre>
+RewriteRule 2007/06/early-morning-update.html http://alvarop.com/2007/06/early-morning-update [R]
+{% endhighlight %}
+
 That's it!

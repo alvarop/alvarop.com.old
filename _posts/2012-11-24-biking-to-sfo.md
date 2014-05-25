@@ -16,7 +16,9 @@ meta:
 I recently<a href="http://www.flysfo.com/web/page/orphan/bicycle-parking/"> found out</a> that the San Francisco International Airport (SFO) offers bike parking for up to 14 days. I decided to try it out during the thanksgiving break just for fun (with the added bonus of saving on driving/parking or taxi costs).
 
 The San Jose airport is much closer to where I live (San Jose/Cupertino area), but SFO has more direct flights to where I need to go. SFO is over 40 miles from my apartment, so the trip did require some planning. First of all, I had to reduce the amount of luggage I packed, since I was going to be carrying it on my back. I can't predict if it's going to be raining or not, so I decided to use a waterproof backpack. Finally, I didn't want to bike all 40 miles, so I only biked to/from CalTrain stations and took the train the rest of the way.
-<h3>Getting There</h3>
+
+###Getting There
+
 My flight was at 12:40 on Saturday. I decided to take the 8:14am train from Sunnyvale, so I would get to the airport around 9:30am. (This way, I could miss the train and still make it in time. Flats happen!) The weather was great, cold and rainy, so I got to use all my waterproof gear.
 
 <a href="http://alvarop.com/wp-content/uploads/2012/11/CIMG1026.jpg"><img class="size-large wp-image-284" title="waterproof gear" src="http://alvarop.com/wp-content/uploads/2012/11/CIMG1026-640x480.jpg" alt="" width="640" height="480" /></a> Ready for some rain!
@@ -40,7 +42,9 @@ To get to the airport from the station, I took Millbrae Ave to S McDonnell Rd. M
 So that was the trip there... Oh wait, I should warn anyone trying to do the same. If it happens to be raining, and your clothes are soaking wet, change before going through security! I always opt out of the TSA's full body scanners and get the enhanced pat down (fun!). After they pat you down, they scan the gloves they used on you for whatever it is they're looking for. Turns out, if the gloves are soaked, the machine doesn't like it, and you get an extra-special pat down and search. Luckily, I had plenty of time and the TSA agents were nice.
 
 <a href="http://alvarop.com/wp-content/uploads/2012/11/IMG_0102.jpg"><img class="size-large wp-image-290" title="changed" src="http://alvarop.com/wp-content/uploads/2012/11/IMG_0102-640x480.jpg" alt="" width="640" height="480" /></a> Be sure to bring a change of clothes. Nobody likes traveling with wet socks/shoes!
-<h3>Getting Back</h3>
+
+###Getting Back
+
 I was slightly worried when the airport guy had never had anyone register a bike with him. Turns out, we did it right and my bike was still there when I returned. Phew!
 
 <a href="http://alvarop.com/wp-content/uploads/2012/11/IMG_0131.jpg"><img class="size-large wp-image-292" title="bikesfo2" src="http://alvarop.com/wp-content/uploads/2012/11/IMG_0131-640x480.jpg" alt="" width="640" height="480" /></a> Bike was still there when I returned!
