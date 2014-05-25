@@ -5,7 +5,7 @@ categories: []
 tags: []
 status: trash
 type: post
-published: false
+comments: false
 meta:
   _wp_trash_meta_status: publish
   _wp_trash_meta_time: '1392088478'

@@ -7,7 +7,7 @@ categories:
 tags: []
 status: publish
 type: post
-published: true
+comments: true
 meta:
   blogger_blog: blog.alvarop.com
   blogger_author: ''

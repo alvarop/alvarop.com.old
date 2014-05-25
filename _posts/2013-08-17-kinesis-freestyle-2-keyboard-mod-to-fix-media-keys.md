@@ -6,7 +6,7 @@ categories:
 tags: []
 status: publish
 type: post
-published: true
+comments: true
 meta:
   _wpas_done_all: '1'
   dsq_thread_id: '1613677654'

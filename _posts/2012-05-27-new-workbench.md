@@ -6,7 +6,7 @@ categories:
 tags: []
 status: publish
 type: post
-published: true
+comments: true
 meta:
   dsq_thread_id: '705239510'
   _edit_last: '1'

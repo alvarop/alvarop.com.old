@@ -10,7 +10,7 @@ tags:
 - turret
 status: publish
 type: post
-published: true
+comments: true
 meta:
   _edit_last: '1'
   _thumbnail_id: '429'

@@ -10,7 +10,7 @@ tags:
 - sparkfun
 status: publish
 type: post
-published: true
+comments: true
 meta:
   _edit_last: '1'
   dsq_thread_id: '829195130'

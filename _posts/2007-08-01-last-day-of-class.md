@@ -7,7 +7,7 @@ categories:
 tags: []
 status: publish
 type: post
-published: true
+comments: true
 meta:
   dsq_thread_id: '634372984'
   blogger_blog: blog.alvarop.com
