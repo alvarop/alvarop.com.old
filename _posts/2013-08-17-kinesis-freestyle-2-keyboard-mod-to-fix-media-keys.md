@@ -25,7 +25,7 @@ I had no knowledge of usb keyboards before I started, so the first thing I did w
 
 The keyboard itself has a few IC's. The larger one is a <a href="http://www.genesyslogic.com/manage/upfile/12052255151.pdf">Genesys Logic GL850G</a>, which is a USB Hub. this makes sense, since there are two extra USB ports on the keyboard. The second one is an <a href="http://www.alcormicro.com/en_content/c_product/product_01b.php?CategoryID=1&amp;IndexID=2">Alcor Micro AU9410</a> USB Keyboard Controller. Great, now I know what to look for!
 
-<a href="http://alvarop.com/wp-content/uploads/2013/08/image-1.jpeg"><img class="size-large wp-image-389" alt="Kinesis PCB Back Side" src="/images/wp/image-1-640x480.jpeg" width="640" height="480" /></a> Kinesis PCB Back Side
+<a href="/images/wp/image-1.jpeg"><img class="size-large wp-image-389" alt="Kinesis PCB Back Side" src="/images/wp/image-1-640x480.jpeg" width="640" height="480" /></a> Kinesis PCB Back Side
 
 After finding the data sheet for the controller, I started reading. The Alcor Micro guys were nice enough to include an example schematic, which included the pinout for the part. After reading some more, I realized there is an optional external EEPROM that can be used to change the controller's configuration. This seemed like the perfect place to start probing.
 
