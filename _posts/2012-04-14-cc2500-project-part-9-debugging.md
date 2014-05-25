@@ -16,13 +16,13 @@ My Wireless RGB LED driver had been using the msp430g2452 microcontroller. So fa
 
 I decided to begin testing the 2533 with the rgb led radio code. As you might expect, it didn't work. I quickly pulled out my<a href="http://www.saleae.com/logic"> Salae Logic</a> analyzer and connected it to the msp430-to-radio interface to see what was going on. To have an idea of what the signals should look like, I used the 2452. I spent a few hours comparing the two signal captures, measuring timings, read data in the microcontroller, etc... This is a 'quick' summary of my findings.
 
-<a href="http://162.243.232.167/wp-content/uploads/2012/04/debug-11.png"><img class="size-full wp-image-204" title="Debug" src="http://162.243.232.167/wp-content/uploads/2012/04/debug-11.png" alt="" width="600" height="800" /></a>
+<a href="http://alvarop.com/wp-content/uploads/2012/04/debug-11.png"><img class="size-full wp-image-204" title="Debug" src="http://alvarop.com/wp-content/uploads/2012/04/debug-11.png" alt="" width="600" height="800" /></a>
 
 The first thing I noticed was that the separation between the address and data bytes was different between the devices (Circled in red). The 2452 had about 1.58 µs separation while the 2533 only had 0.5 µs. I looked in the cc2500 datasheet and realized that as long as that separation is greater than 55 ns, everything should work, which meant that was not the problem.
 
 Another thing I noticed was that the 2533 misread some of the radio settings. For example, it would read 0x03 instead of the actual 0x07. This suggested something was wrong with the bit timings. After some more messing around, I saw this:
 
-<a href="http://162.243.232.167/wp-content/uploads/2012/04/debug-2.png"><img class="size-full wp-image-203" title="Debug 2" src="http://162.243.232.167/wp-content/uploads/2012/04/debug-2.png" alt="" width="600" height="500" /></a>
+<a href="http://alvarop.com/wp-content/uploads/2012/04/debug-2.png"><img class="size-full wp-image-203" title="Debug 2" src="http://alvarop.com/wp-content/uploads/2012/04/debug-2.png" alt="" width="600" height="500" /></a>
 
 The 2533 was starting the byte transmission half a clock-cycle too early! This also means that it is trying to sample incoming data at the wrong time (which is why some of the data reads were wrong). After digging around in datasheets and code, I found the source of the problem to be this line in the SPI configuration:
 <pre class="brush: c; gutter: false">UCB0CTL0 |= UCMST+UCCKPL+UCMSB+UCSYNC+UCCKPH;    // 3-pin, 8-bit SPI master</pre>
