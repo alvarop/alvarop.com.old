@@ -17,7 +17,7 @@ meta:
 ---
 I recently started working on a project that <em>might</em> require some Passive Infra-red (PIR) sensors. <a href="http://www.sparkfun.com/">Sparkfun</a> had two different ones, so I figured I'd try them both.
 
-<a href="/images/wp/IMG_0932.jpg"><img class="size-large wp-image-257" title="Zilog ePIR and SE-10" src="http://alvarop.com/wp-content/uploads/2012/09/IMG_0932-640x426.jpg" alt="" width="640" height="426" /></a> Zilog ePIR and SE-10
+<a href="/images/wp/IMG_0932.jpg"><img class="size-large wp-image-257" title="Zilog ePIR and SE-10" src="/images/wp/IMG_0932-640x426.jpg" alt="" width="640" height="426" /></a> Zilog ePIR and SE-10
 
 The comparison is between a <a href="https://www.sparkfun.com/products/9587">Zilog ePIR</a> and an <a href="https://www.sparkfun.com/products/8630">SE-10</a>. One very important thing to note is that I did not use the<strong> ePIR</strong>'s serial interface. I only used the hardware interface, set to the highest sensitivity, and shortest delay. I felt that this would be a better comparison. I made a video that shows my test setup, as well as some results, so most of the relevant information is there. I'll use this blog post to add some setup details, as well as my conclusion.
 
@@ -29,7 +29,7 @@ The alarm pin needs to have a pull-up resistor, but that's about it. Out of the 
 
 You'll notice the <strong>SE-10</strong> takes in <strong>12V</strong>. Several comments on the <a href="http://www.sparkfun.com/">Sparkfun</a> product page deal with powering the device with <strong>5V</strong> or <strong>3.3V</strong>. All I did was remove the <strong>5V</strong> regulator and jump across it with a wire (big red one on the photo). Unfortunately, I ripped off some traces while attempting to remove the regulator (oops!). At first it wouldn't work, but I noticed a very small trace going under one of the resistors and connecting to the ground pin of the regulator. After connecting that to ground again (small red wire on the photo), everything worked fine at <strong>5V</strong>.
 
-<a href="/images/wp/IMG_0931.jpg"><img class="aligncenter size-large wp-image-259" title="SE-10" src="http://alvarop.com/wp-content/uploads/2012/09/IMG_0931-640x426.jpg" alt="SE-10 Jumper" width="640" height="426" /></a>
+<a href="/images/wp/IMG_0931.jpg"><img class="aligncenter size-large wp-image-259" title="SE-10" src="/images/wp/IMG_0931-640x426.jpg" alt="SE-10 Jumper" width="640" height="426" /></a>
 
 The <strong>ePIR</strong> sensor took me a bit longer to get working. The datasheet is quite long, mostly documenting all the configurations and serial interface. They do have a nice schematic showing the <strong>Hardware Interface Mode.</strong> It shows all the connections required to get this working without the serial interface. The schematic has three potentiometers, a photoresistor and three regular resistors. Luckily, you don't even need that for the most basic operation. The pots are all for setting the <strong>delay</strong>(pin 2), <strong>sensitivity</strong>(pin 3), and <strong>light gate threshold</strong>(pin 6). You can just connect the <strong>delay</strong> and <strong></strong> sensitivity<strong> </strong>pins to ground, and the <strong>light gate </strong>to VCC(which is <strong>3.3V</strong> for this device). This will use the minimum delay (2 seconds), maximum sensitivity, and have the device always on.
 

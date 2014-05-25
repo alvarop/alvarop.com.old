@@ -18,13 +18,13 @@ If you haven't heard about my 'home automation' project, you should probably <a 
 
 This weekend was rather productive. I managed to get my light alarm working! I wrote <a href="https://github.com/alvarop/pc/tree/master/projects/escheduler">escheduler</a>, which is something like <a href="http://en.wikipedia.org/wiki/Cron">crond</a>, but calls functions, instead of running programs. It's also more limited, since it only schedules events on a weekly basis.
 
-<a href="/images/wp/65507_10100403377480335_1815842229_n.jpg"><img class="size-large wp-image-325" alt="Beaglebone with a more 'permanent' radio setup" src="http://alvarop.com/wp-content/uploads/2013/02/65507_10100403377480335_1815842229_n-640x480.jpg" width="640" height="480" /></a> Beaglebone with a more 'permanent' radio setup
+<a href="/images/wp/65507_10100403377480335_1815842229_n.jpg"><img class="size-large wp-image-325" alt="Beaglebone with a more 'permanent' radio setup" src="/images/wp/65507_10100403377480335_1815842229_n-640x480.jpg" width="640" height="480" /></a> Beaglebone with a more 'permanent' radio setup
 
 <a href="https://github.com/alvarop/pc/tree/master/projects/escheduler">Escheduler </a>runs on the beaglebone, which is currently my 'home server'. The current set-up turns on the light behind my bed a few minutes before I'm supposed to wake up. Eventually there will be a whole fade-in period, but I just wanted to get something working. I left it running overnight, and sure enough, the lights turned on on time this morning!
 
 Previously, the only way to control the lights was to ssh into the beaglebone and run <a href="https://github.com/alvarop/pc/tree/master/projects/swrite">swrite </a>with the radio commands. You might not think so, but ssh-ing into the server and typing commands from a smartphone in bed at 6am is not as easy as it sounds! To make things easier, I decided to make a web interface I can use from my phone.
 
-<a href="/images/wp/BCxhqsqCIAMK9pT.jpg"><img class="size-large wp-image-323" alt="Simple RGB LED controller in smartphone browser" src="http://alvarop.com/wp-content/uploads/2013/02/BCxhqsqCIAMK9pT-288x480.jpg" width="288" height="480" /></a> Simple RGB LED controller in smartphone browser
+<a href="/images/wp/BCxhqsqCIAMK9pT.jpg"><img class="size-large wp-image-323" alt="Simple RGB LED controller in smartphone browser" src="/images/wp/BCxhqsqCIAMK9pT-288x480.jpg" width="288" height="480" /></a> Simple RGB LED controller in smartphone browser
 
 It took longer than expected, but I ended up using the <a href="http://twitter.github.com/bootstrap/">twitter bootstrap</a>. I haven't done any web development in several years, so I had to re-learn a lot of things. In the end, I just set up a few buttons to turn the lights on or off. When clicked, there's an AJAX request in the background to a php file that calls <a href="https://github.com/alvarop/pc/tree/master/projects/swrite">swrite </a>to send the commands via the beaglebone radio. Next up will be controlling the actual colors from the web interface, as well as viewing and editing the alarms.
 

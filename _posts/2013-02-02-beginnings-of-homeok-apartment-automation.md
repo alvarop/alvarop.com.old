@@ -20,16 +20,16 @@ My 'end goal' is to be able to control things like lighting and <a href="http://
 
 The first task I decided to do was to get my beaglebone talking to my cc2500 radios. I didn't want to waste time trying to figure out how to get SPI and interrupts working on the beaglebone, so I went for the simpler solution and put an msp430 to control the cc2500. I say simpler because I already had a <a href="https://github.com/alvarop/msp430-cc2500/blob/master/projects/bridge/main.c">uart-to-msp430-to-cc2500</a> bridge working, so the only new thing was figuring out the uart on the beaglebone. Luckily, there are several <a href="http://www.jerome-bernard.com/blog/2012/06/04/beaglebone-serial-ports-and-xbees/">good posts</a> about it online.
 
-<a href="/images/wp/IMG_1333.jpg"><img class="size-large wp-image-308" alt="Beaglebone with CC2500" src="http://alvarop.com/wp-content/uploads/2013/02/IMG_1333-640x426.jpg" width="640" height="426" /></a> The "Server" -- Beaglebone with CC2500
+<a href="/images/wp/IMG_1333.jpg"><img class="size-large wp-image-308" alt="Beaglebone with CC2500" src="/images/wp/IMG_1333-640x426.jpg" width="640" height="426" /></a> The "Server" -- Beaglebone with CC2500
 
 Once I had my 'server' talking to the radio, I had to write a program to control it. Again, I could write an entire, complicated, sever application, or I could do something <a href="https://github.com/alvarop/pc/tree/master/projects/swrite">much simpler</a> to start. Since I'm currently only testing with wireless lighting, I don't need the server to receive data. Instead of having an always running application that takes over the serial port, my <a href="https://github.com/alvarop/pc/tree/master/projects/swrite">swrite </a>program is called from the command line each time a new packet is sent. While limited, this solution is enough for now.
 
-<a href="/images/wp/IMG_1338.jpg"><img class="size-large wp-image-310" alt="Wireless RGB LED Controller" src="http://alvarop.com/wp-content/uploads/2013/02/IMG_1338-331x480.jpg" width="331" height="480" /></a> Wireless RGB LED controller mounted on bike rack
+<a href="/images/wp/IMG_1338.jpg"><img class="size-large wp-image-310" alt="Wireless RGB LED Controller" src="/images/wp/IMG_1338-331x480.jpg" width="331" height="480" /></a> Wireless RGB LED controller mounted on bike rack
 
 To start testing the lighting control, I mounted two RGB LED strips with controllers in my apartment. One is behind my bike rack in the living room, and the other behind my bed. The one behind my bed will eventually be tied to my alarm clock, so I can start turning up the lights before I wake up. Since my computer is not in my room, I use the one in the bike rack for testing.
 
-<a href="/images/wp/IMG_1343.jpg"><img class="size-large wp-image-311" alt="Lights on Bike Rack" src="http://alvarop.com/wp-content/uploads/2013/02/IMG_1343-640x426.jpg" width="640" height="426" /></a> Lights on Bike Rack
+<a href="/images/wp/IMG_1343.jpg"><img class="size-large wp-image-311" alt="Lights on Bike Rack" src="/images/wp/IMG_1343-640x426.jpg" width="640" height="426" /></a> Lights on Bike Rack
 
 So that's what I have so far. It's not terribly exciting, but maybe if I write about it, I'll be more motivated to keep working on it. Right now I'm writing a program on the server that will allow me to schedule events. A bit like <a href="http://linux.die.net/man/8/crond">crond</a>, but instead of running programs, it calls my own functions. The first test will be to set up the light-alarm. I hope it works!
 
-<a href="/images/wp/IMG_1349.jpg"><img class="size-large wp-image-312" alt="RGB LED strip behind bed" src="http://alvarop.com/wp-content/uploads/2013/02/IMG_1349-640x426.jpg" width="640" height="426" /></a> RGB LED strip behind bed
+<a href="/images/wp/IMG_1349.jpg"><img class="size-large wp-image-312" alt="RGB LED strip behind bed" src="/images/wp/IMG_1349-640x426.jpg" width="640" height="426" /></a> RGB LED strip behind bed

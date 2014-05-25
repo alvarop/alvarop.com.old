@@ -24,7 +24,7 @@ The actual devices consist of an msp430 microcontroller a cc2500 radio, and an a
 
 Since the devices aren't very nicely built, I was slightly worried about the airport security. Luckily, they didn't even ask me to take them out of my bags!
 
-<a href="/images/wp/IMG_20120517_161712.jpg"><img class="size-large wp-image-245 aligncenter" title="Wireless Friend Finders" src="http://alvarop.com/wp-content/uploads/2012/05/IMG_20120517_161712-640x480.jpg" alt="" width="640" height="480" /></a>
+<a href="/images/wp/IMG_20120517_161712.jpg"><img class="size-large wp-image-245 aligncenter" title="Wireless Friend Finders" src="/images/wp/IMG_20120517_161712-640x480.jpg" alt="" width="640" height="480" /></a>
 
 Even though the project was for the bring-a-hack dinner, I carried it around while I was at the faire. I was surprised at the reactions it received. Many people were asking if I had plans to make these into an actual product!(And suggesting new features) Moms wanting to find their kids, concert goers wanting to find their friends, burning man attendees, etc... The devices themselves are really cheap, under $10 each, so who knows...
 
