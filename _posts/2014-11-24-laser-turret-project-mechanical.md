@@ -7,7 +7,7 @@ tags: [defconbots]
 comments: true
 ---
 
-The last turret update (with actual content) happened back in February. I continued working on it through August, taking it both to Maker Faire and DEFCON. I had planned on writing about it back then, but never really got around to it… This post covers the mechanical aspects of the project. I’ll write about the electrical/firmware/software some other time.
+The [last turret update][0] (with actual content) happened back in February. I continued working on it through August, taking it both to Maker Faire and DEFCON. I had planned on writing about it back then, but never really got around to it… This post covers the mechanical aspects of the project. I’ll write about the electrical/firmware/software some other time.
 
 The last post covered some initial progress with servos and basic software. I decided that platform was not going to work and continued experimenting with other alternatives. The next thing I tried were stepper motors. I figured having absolute position control would be useful when trying to point a laser somewhere. 
 
@@ -61,6 +61,7 @@ This final design is the one that actually went to DEFCON. During the actual com
 
 I started this project with the goal of learning about motor control and mechanical design. Having little-to-no experience with either, I’m pretty happy with the result. I’ll try to do another write up about the firmware/software, which was also lots of fun. For all of the project photos, check out the [flickr album][2].
 
+[0]: /2014/02/laser-turret-progress/
 [1]: https://github.com/SolidCode/MCAD
 [2]: https://www.flickr.com/photos/apg88/sets/72157649440445931/
 [3]: https://forum.defcon.org/showthread.php?t=14025
