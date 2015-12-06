@@ -25,7 +25,7 @@ My first attempt used cardboard for the front plate, but the clear tubing was st
 
 ![Behind the LED strips](/images/fluxcapacitor/FluxCapacitor - 8.jpg)
 
-I had some leftover alder wood boards leftover from other projects, so I decided to use that instead. It was just large enough to fit the tubes (and coincidentally, almost fit in the box I had) and strong enough to hold everything in place.
+I had some leftover alder wood boards from other projects, so I decided to use that instead. It was just large enough to fit the tubes, about the right size for the box I had, and strong enough to hold everything in place.
 
 ![Full board from behind](/images/fluxcapacitor/FluxCapacitor - 9.jpg)
 
@@ -41,17 +41,19 @@ Everything fit in place, but was loose. Thankfully, I have lots of hot glue, so 
 
 ![Board in box](/images/fluxcapacitor/FluxCapacitor - 16.jpg)
 
-I cut another piece of cardboard to make a 'window' and glued a piece of clear plastic onto it. I then hot glued that onto the box.
+I cut another piece of cardboard to make a 'window', glued a piece of clear plastic onto it, and then hot glued that onto the box.
 
 ![Final setup - dark](/images/fluxcapacitor/FluxCapacitor - 18.jpg)
 
-It's nowhere near close to what it looked like in the movie, but this was more of a rushed job for a party than an actual movie prop replica.
+It's nowhere near close to what it looked like in the movie, but this was more of a rushed job for a party than an actual movie prop replica. (And it's portable!) I used a USB battery pack to power it with no issues.
 
 ![Final setup - lit up](/images/fluxcapacitor/FluxCapacitor - 22.jpg)
 
-If you're interested, take a look at the teensy [code on github][3].
+If you're interested, take a look at the Teensy [code on github][3].
 
-I added some color-changing features just for fun. Every time the button is pressed the modes change.
+![Controls](/images/fluxcapacitor/FluxCapacitor - 5.jpg)
+
+The controls on the side consist of two potentiometers and a button all connected to the Teensy. They are used to adjust speed, brightness, and color changes.
 
 <div align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/k18zvcvC6wI" frameborder="0" allowfullscreen></iframe></div>
 
