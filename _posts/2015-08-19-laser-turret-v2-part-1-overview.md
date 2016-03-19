@@ -35,7 +35,7 @@ The calibration procedure ended up working as follows: A 10x10 grid of points is
 
 <div align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/7acicM_vzDA" frameborder="0" allowfullscreen></iframe></div>
 
-</br> Actually, here's a long exposure of what it looked like later on:
+Actually, here's a long exposure of what it looked like later on:
 
 ![Approximation example](/images/defconbots2015/DC2015 - 4.jpg)
 
@@ -47,7 +47,7 @@ The lookup table with approximation worked great, when testing against a surface
 
 <div align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/NY5AHltA9wE" frameborder="0" allowfullscreen></iframe></div>
 
-</br> Instead of laser-cutting the entire robot this year, I decided to use the openbeam extruded aluminum system to get everything up and running quickly. I’ll do a follow-up post about all the mechanical fun that I had to deal with. For all the vision, we used openCV with python. I’ll also cover that in another post.
+Instead of laser-cutting the entire robot this year, I decided to use the openbeam extruded aluminum system to get everything up and running quickly. I’ll do a follow-up post about all the mechanical fun that I had to deal with. For all the vision, we used openCV with python. I’ll also cover that in another post.
 
 As for the results, we got 3rd place overall. The vision and tracking were working, but we had some technical difficulties with the laser shots registering with the targets. Shots consisted 4800 baud serial packets over the laser. I still have to do some investigating to figure out why it wasn’t working. We suspect it was just a bad laser, but it could also have been my power supply, or the dimming due to it bouncing off two mirrors. 
 
@@ -55,7 +55,7 @@ I don't seem to have many good videos during the competition, but here's one whe
 
 <div align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/55kElXY1A9U" frameborder="0" allowfullscreen></iframe></div>
 
-</br> If there are any parts you'd like me to focus on, let me know before I do the next write up and I'll try to expand on them.
+If there are any parts you'd like me to focus on, let me know before I do the next write up and I'll try to expand on them.
 
 [0]: http://www.defconbots.org
 [1]: /2014/11/laser-turret-project-mechanical/
