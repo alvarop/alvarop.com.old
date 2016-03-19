@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Rain = No Work
 categories:
 - russia

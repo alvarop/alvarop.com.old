@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Wireless Friend Finder!
 categories:
 - cc2500

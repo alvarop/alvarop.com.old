@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Laser Turret Progress
 categories:
 - projects

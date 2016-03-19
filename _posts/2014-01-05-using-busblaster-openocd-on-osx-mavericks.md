@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Using BusBlaster + openOCD on OSX Mavericks
 categories:
 - ARM

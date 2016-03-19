@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: It's been almost a year...
 categories: []
 tags: []

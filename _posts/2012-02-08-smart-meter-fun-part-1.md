@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Smart Meter Fun (Part 1)
 categories:
 - projects

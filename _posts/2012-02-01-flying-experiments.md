@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Flying Experiments
 categories:
 - life

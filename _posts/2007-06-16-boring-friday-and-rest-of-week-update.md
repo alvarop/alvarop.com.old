@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Boring Friday ( and rest of week update)
 categories:
 - life

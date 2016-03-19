@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: GCC-ARM for Cortex-M3 on Ubuntu
 categories:
 - ARM

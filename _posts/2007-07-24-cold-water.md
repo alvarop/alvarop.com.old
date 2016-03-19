@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Cold Water
 categories:
 - russia

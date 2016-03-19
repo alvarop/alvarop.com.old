@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Not-so-Quick Update
 categories:
 - travel

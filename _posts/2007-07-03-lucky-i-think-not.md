@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Lucky? I think not.
 categories:
 - russia

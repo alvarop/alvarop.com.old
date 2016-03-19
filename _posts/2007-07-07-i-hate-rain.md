@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: I Hate Rain
 categories:
 - russia

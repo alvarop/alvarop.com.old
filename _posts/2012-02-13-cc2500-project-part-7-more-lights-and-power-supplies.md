@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: CC2500 Project (Part 7) - More Lights and Power Supplies!
 categories:
 - cc2500

@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: CC2500 Project (Part 6) - Reorganizing
 categories:
 - cc2500

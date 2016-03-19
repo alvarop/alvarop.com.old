@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Dinner with Family
 categories: []
 tags: []

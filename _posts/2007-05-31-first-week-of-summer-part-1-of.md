@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: First Week of Summer (Part 1 of ?)
 categories:
 - life

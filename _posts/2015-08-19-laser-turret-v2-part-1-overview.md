@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Laser Turret Project v2 - Part 1 - Overview
 categories:
 - projects

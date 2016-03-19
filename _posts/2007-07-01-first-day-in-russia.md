@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: First day in Russia
 categories:
 - russia

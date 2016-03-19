@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: No More Cold Water!
 categories:
 - russia

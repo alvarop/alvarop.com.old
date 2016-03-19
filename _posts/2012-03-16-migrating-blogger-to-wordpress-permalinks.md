@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Migrating Blogger to Wordpress Permalinks
 categories: []
 tags: []

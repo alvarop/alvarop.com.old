@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: CC2500 Project (Part 5) -- SPI Problem Solved!
 categories:
 - cc2500

@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Contemporary Music
 categories:
 - random

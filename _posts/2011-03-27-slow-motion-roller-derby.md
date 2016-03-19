@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: Slow Motion Roller Derby
 categories:
 - projects
